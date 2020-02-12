@@ -41,7 +41,26 @@ public void before(){
         assertEquals(4, library.stockCount());
     }
 
-    @Test
-    public void libraryCanCheckStockForABook
+//    Solution:
+
+//    @Test
+//    public void checkBookAvailable() {
+//        assertEquals(false, library.checkInStock(book1));
+//    }
+
+//    @Test
+//    public void checkBookAvailable__true() {
+//    library.addBook(book1);
+//    assertEquals(true, library.checkInStock(book1));
+//}
+//
+//    @Test
+//    public void testCanLendBook() {
+//    library.addBook(book1);
+//    library.loanBook(book1, borrower);
+//     assertEquals(1, borrower.bookCount());
+//     assertEquals(0, library.bookCount());
+//     assertEquals(false, library.checkInStock(book1));
+//    }
 
 }

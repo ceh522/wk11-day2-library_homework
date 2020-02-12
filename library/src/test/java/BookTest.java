@@ -6,6 +6,8 @@ import static org.junit.Assert.assertEquals;
 public class BookTest {
     Book book1;
 
+//    could make this private - idea make private unless there is a reason for not doing so
+
     @Before
     public void before() {
         book1 = new Book("Wuthering Heights", "Emily Bronte", "Classic");

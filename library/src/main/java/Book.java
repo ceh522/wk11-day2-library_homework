@@ -22,3 +22,5 @@ public class Book {
         return this.genre;
     }
 }
+
+//control enter to create some methods (getters, setters)
